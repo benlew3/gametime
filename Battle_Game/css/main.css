@@ -1,0 +1,43 @@
+/*nav bar*/
+body{
+	padding-top: 0;
+	background-color: #32363D;
+}
+header{
+	height:110px;
+	background-color: black;
+	height: 1%;
+}
+ul.nav{
+	float: right;
+	padding-top: 4%;
+}
+ul.nav li{
+	display: inline;
+}
+.nav a{
+	color: #005DFF;
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin: 10px;
+	font-size: 15px;
+}
+nav li a:hover {
+	text-decoration: underline;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
