@@ -1,7 +1,7 @@
 /*nav bar*/
 body{
 	padding-top: 0;
-	background-color: #32363D;
+	background-image: url("img/bgmap.jpg");
 }
 header{
 	height:110px;
@@ -26,7 +26,11 @@ nav li a:hover {
 	text-decoration: underline;
  }
 
-
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+}
 
 
 
