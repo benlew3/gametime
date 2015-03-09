@@ -44,10 +44,12 @@
         <h1>Login Page</h1>
         <h3 id="login"> to download please, please log in or create a user name</h3>
         <form name="login">
-            Username<input type="text" name="userid" placeholder="User Name"/>
-            Password<input type="password" name="pswrd" placeholder="Password"/>
+            <div class="login1">
+            Username <input type="text" name="userid" placeholder="User Name"/>
+            Password <input type="password" name="pswrd" placeholder="Password"/>
             <input type="button" onclick="check(this.form)" value="Login"/>
             <input type="reset" value="Cancel"/>
+            </div>
         </form>
         <script language="javascript">
             function check(form) { /*function to check userid & password*/
@@ -60,6 +62,7 @@
                 }
             }
         </script>
+
       </div>
     </body>
 </html>
