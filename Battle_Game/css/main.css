@@ -1,8 +1,7 @@
 /*nav bar*/
 body{
 	padding-top: 0;
-	background-image: url("img/bgmap.jpg");
-	background-repeat: no-repeat;
+	background-color: black;
 }
 header{
 	height:110px;
@@ -27,19 +26,50 @@ nav li a:hover {
 	text-decoration: underline;
  }
 
-ul #base{
+ul#base{
 	display: inline;
 	position: relative;
 	float: left;
 }
 
+h2#start{
+	color: white;
+	font-size: 35px;
+}
+div#humans{
+	padding-left: 1%;
+}
+p#classtype{
+	font-size: 20px;
+	color: #8B8E8F;
+}
+img#level2{
+	padding-right: 10%;1
+}
+p#map{
+	font-size: 15px;
+	color: white;
+}
 
+div.map{
+margin: 0 auto;
+width: 50%;
+margin-top: 3%;
+}
 
+div.video{
+	margin: 0 auto;
+	width: 82%;
+	margin-top: 5%
+}
 
-
-
-
-
+div.login{
+	text-align: center;
+	margin-top: 15%;
+}
+h3#login{
+	color: #8B8E8F;
+}
 
 
 
